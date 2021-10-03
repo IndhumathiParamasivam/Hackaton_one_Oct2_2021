@@ -131,7 +131,7 @@ async function FindNationality(name)
     return dataInJSON;
 }   
     catch(error)
-    { console.log("nnn");
+    {
         console.log(error);
         return null;
     }
